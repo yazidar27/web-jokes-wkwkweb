@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriter from '../components/TypeWriter';
-import Button from '../components/buttons/Button';
+import ButtonLink from '../components/buttons/ButtonLink';
 
 const IntroPage = () => {
     return (
@@ -15,8 +15,8 @@ const IntroPage = () => {
             </p>
 
             <div className='flex flex-row gap-4 mt-4'>
-                <Button title="Start Writing Jokes" />
-                <Button title="Explore Jokes" />
+                <ButtonLink title="Start Writing Jokes" to="jokes/create" />
+                <ButtonLink title="Explore Jokes" />
             </div>
         </div>
     )

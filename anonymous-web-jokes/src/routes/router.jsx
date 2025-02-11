@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layout/RootLayout";
 import IntroPage from "../pages/IntroPage";
 import TopJokes from "../pages/TopJokes";
+import CreateJokes from "../pages/CreateJokes";
 
 export const router = createBrowserRouter([
     {
@@ -18,8 +19,12 @@ export const router = createBrowserRouter([
                     {
                         index: true,
                         element: <TopJokes />
+                    }, {
+                        path: 'create',
+                        element: <CreateJokes/>
                     }
-                ]
+                ],
+
             }
         ]
     }

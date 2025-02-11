@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Button from "./buttons/Button";
 
 const MainNavigation = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ const MainNavigation = () => {
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">JokesHub</span>
                 </NavLink>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-    
+
                     <button
                         onClick={toggleMenu}
                         type="button"

@@ -1,16 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Button = ({ onClick, title, ...props }) => {
+const ButtonLink = ({ onClick, title, to, ...props }) => {
     return (
-        <button
+        <Link
             className="text-white bg-pink-500 hover:bg-pink-600
             focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium
             rounded-lg text-sm px-4 py-2 text-center w-full"
+            to={to}
             {...props}
         >
             {title}
-        </button>
+        </Link>
     )
 }
 
-export default Button
+export default ButtonLink
