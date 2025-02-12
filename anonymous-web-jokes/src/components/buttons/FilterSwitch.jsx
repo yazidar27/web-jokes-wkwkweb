@@ -29,14 +29,11 @@ export default function FilterSwitch({ onJokesTypeChange }) {
                     onJokesTypeChange("setupPunchline")
                 }}
             />
-
-            {/* Background Slider */}
             <span
                 className={`absolute top-[4px] left-[4px] h-[38px] w-[49%] bg-pink-400 rounded-lg transition-all duration-300 ${selected === "setupPunchline" ? "left-[50%]" : "left-[4px]"
                     }`}
             ></span>
 
-            {/* Labels */}
             <label
                 htmlFor="story"
                 className={`flex-1 text-center cursor-pointer text-[12px] font-medium z-10 transition-all ${selected === "story" ? "text-gray-900 font-bold" : "text-gray-500"

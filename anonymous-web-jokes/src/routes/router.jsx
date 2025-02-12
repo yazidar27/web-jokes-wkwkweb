@@ -3,6 +3,8 @@ import RootLayout from "../layout/RootLayout";
 import IntroPage from "../pages/IntroPage";
 import TopJokes from "../pages/TopJokes";
 import CreateJokes from "../pages/CreateJokes";
+import ExploreJokes from "../pages/ExploreJokes";
+import AboutPage from "../pages/AboutPage";
 
 export const router = createBrowserRouter([
     {
@@ -14,6 +16,10 @@ export const router = createBrowserRouter([
                 element: <IntroPage />
             },
             {
+                path: 'about',
+                element: <AboutPage/>
+            },
+            {
                 path: 'jokes',
                 children: [
                     {
@@ -22,6 +28,10 @@ export const router = createBrowserRouter([
                     }, {
                         path: 'create',
                         element: <CreateJokes/>
+                    },
+                    {
+                        path: 'explore',
+                        element : <ExploreJokes/>
                     }
                 ],
 

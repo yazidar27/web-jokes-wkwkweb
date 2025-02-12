@@ -1,0 +1,67 @@
+{
+    "jokes": [
+      {
+        "id": "joke1",
+        "type": "setupPunchline",
+        "category": "dad_jokes",
+        "setup": "Why don't eggs tell jokes?",
+        "punchline": "Because they might crack up!",
+        "upvotes": 120,
+        "downvotes": 10,
+        "createdAt": 1700000000,
+        "popularityScore": 130
+      },
+      {
+        "id": "joke2",
+        "type": "setupPunchline",
+        "category": "programmer",
+        "setup": "Why do programmers prefer dark mode?",
+        "punchline": "Because light attracts bugs!",
+        "upvotes": 250,
+        "downvotes": 20,
+        "createdAt": 1700000500,
+        "popularityScore": 270
+      },
+      {
+        "id": "joke3",
+        "type": "story",
+        "category": "dark_humor",
+        "story": "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "upvotes": 300,
+        "downvotes": 50,
+        "createdAt": 1700001000,
+        "popularityScore": 320
+      },
+      {
+        "id": "joke4",
+        "type": "story",
+        "category": "dad_jokes",
+        "story": "My wife told me to take the spider out instead of killing it... We had some drinks, cool guy, wants to be a web developer.",
+        "upvotes": 180,
+        "downvotes": 15,
+        "createdAt": 1700002000,
+        "popularityScore": 195
+      },
+      {
+        "id": "joke5",
+        "type": "setupPunchline",
+        "category": "general",
+        "setup": "What did the fish say when it hit the wall?",
+        "punchline": "Dam!",
+        "upvotes": 90,
+        "downvotes": 5,
+        "createdAt": 1700003000,
+        "popularityScore": 100
+      },
+      {
+        "id": "joke6",
+        "type": "story",
+        "category": "programmer",
+        "story": "A SQL query walks into a bar, walks up to two tables and asks, 'Can I join you?'",
+        "upvotes": 220,
+        "downvotes": 18,
+        "createdAt": 1700004000,
+        "popularityScore": 235
+      }
+    ]
+  }
