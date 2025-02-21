@@ -29,7 +29,7 @@ const ExploreJokes = () => {
 
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 m-auto mt-10">
             {cardJokes}
         </div>
     )

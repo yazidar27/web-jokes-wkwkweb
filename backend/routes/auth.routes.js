@@ -1,8 +1,10 @@
 import { Router } from "express";
+import { signUp, signIn } from "../controllers/auth.controller.js";
 
 const authRouter = Router();
 
 
-authRouter.get('/sign-up', (req, res) => {
-    return res.send("kontolodon")
-});
+authRouter.post('/sign-up', signUp);
+authRouter.post('/sign-in', signIn);
+
+export default authRouter;

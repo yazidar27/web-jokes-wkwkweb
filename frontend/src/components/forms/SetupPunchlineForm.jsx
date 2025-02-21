@@ -22,11 +22,6 @@ const SetupPunchlineForm = () => {
 
                 placeholder="Contoh: Kenapa ayam menyebrang jalan?"
             />
-
-
-
-
-
             <label className="block text-sm font-semibold mb-1">Punchline</label>
             <input
                 type="text"

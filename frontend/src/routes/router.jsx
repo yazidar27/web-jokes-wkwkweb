@@ -5,6 +5,7 @@ import TopJokes from "../pages/TopJokes";
 import CreateJokes from "../pages/CreateJokes";
 import ExploreJokes from "../pages/ExploreJokes";
 import AboutPage from "../pages/AboutPage";
+import RegisterPage from "../pages/RegisterPage";
 
 export const router = createBrowserRouter([
     {
@@ -17,7 +18,16 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'about',
-                element: <AboutPage/>
+                element: <AboutPage />
+            },
+            {
+                path: 'auth',
+                children: [
+                    {
+                        path: 'register',
+                        element: <RegisterPage />
+                    }
+                ]
             },
             {
                 path: 'jokes',
@@ -27,11 +37,11 @@ export const router = createBrowserRouter([
                         element: <TopJokes />
                     }, {
                         path: 'create',
-                        element: <CreateJokes/>
+                        element: <CreateJokes />
                     },
                     {
                         path: 'explore',
-                        element : <ExploreJokes/>
+                        element: <ExploreJokes />
                     }
                 ],
 

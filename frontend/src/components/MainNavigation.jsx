@@ -17,8 +17,8 @@ const MainNavigation = () => {
         >
           <img src="./komedi.png" className="h-8" alt="Flowbite Logo" />
           <span
-            className="relative self-center text-2xl font-semibold whitespace-nowrap dark:text-white 
-             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700 
+            className="relative self-center text-2xl font-semibold whitespace-nowrap dark:text-white
+             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700
              after:transition-all after:duration-300 hover:after:w-full dark:hover:after:bg-pink-500"
           >
             WkwkWeb
@@ -60,11 +60,11 @@ const MainNavigation = () => {
             <li>
               <NavLink
                 to="/"
-                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
-             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500 
-             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
-             dark:border-gray-700 
-             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700 
+                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100
+             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500
+             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+             dark:border-gray-700
+             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700
              after:transition-all after:duration-300 hover:after:w-full md:dark:hover:after:bg-pink-500"
                 aria-current="page"
               >
@@ -74,11 +74,11 @@ const MainNavigation = () => {
             <li>
               <NavLink
                 to="/about"
-                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
-             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500 
-             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
-             dark:border-gray-700 
-             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700 
+                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100
+             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500
+             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+             dark:border-gray-700
+             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700
              after:transition-all after:duration-300 hover:after:w-full md:dark:hover:after:bg-pink-500"
               >
                 About
@@ -87,14 +87,27 @@ const MainNavigation = () => {
             <li>
               <NavLink
                 to="/jokes/explore"
-                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
-             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500 
-             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
-             dark:border-gray-700 
-             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700 
+                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100
+             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500
+             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+             dark:border-gray-700
+             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700
              after:transition-all after:duration-300 hover:after:w-full md:dark:hover:after:bg-pink-500"
               >
                 Explore Jokes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/auth/register"
+                className="relative block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100
+             md:hover:bg-transparent md:hover:text-pink-700 md:dark:hover:text-pink-500
+             dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+             dark:border-gray-700
+             after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-pink-700
+             after:transition-all after:duration-300 hover:after:w-full md:dark:hover:after:bg-pink-500"
+              >
+                Register
               </NavLink>
             </li>
           </ul>
